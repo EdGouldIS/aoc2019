@@ -1,4 +1,5 @@
 def main(puzzle_input):
+    puzzle_input = puzzle_input.split()
     total = 0
     for mass in puzzle_input:
         total += int(mass) // 3 - 2
@@ -8,7 +9,7 @@ def main(puzzle_input):
 
 def get_input(filename):
     with open(filename) as f:
-        return f.read().split()
+        return f.read()
 
 
 if __name__ == '__main__':

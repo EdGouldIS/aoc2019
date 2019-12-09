@@ -13,5 +13,5 @@ def get_input(filename):
 
 
 if __name__ == '__main__':
-    puzzle_input = get_input('input.txt')
-    print(main(puzzle_input))
+    puzzle_input = get_input('input.txt') 
+    main(puzzle_input)

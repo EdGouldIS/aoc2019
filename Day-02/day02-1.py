@@ -1,3 +1,6 @@
+import time
+start = time.time()
+
 def main(puzzle_input):
     memory = [int(_) for _ in puzzle_input.split(',')]
     memory[1] = 12
@@ -24,5 +27,5 @@ def get_input(filename):
 
 if __name__ == '__main__':
     puzzle_input = get_input('input.txt')
-    main(puzzle_input))
-    
+    main(puzzle_input)
+    print(time.time() - start)
